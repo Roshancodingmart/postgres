@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.main form{
+    width: 50%;
+}
+.form{
+
+    margin-left: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: auto;
+    align-items: center;
+}
+.form2{
+
+    margin-top: 65px;
+    margin-right: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 75px;
+    width: auto;
+    align-items: center;
+}
+.input {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid springgreen;
+    box-shadow: 12px 11px 8px 0px black;
+}
+.input:hover{
+    width: 400px;
+    border: 2px solid blue;
+}
+.btn1{
+    background: white;
+    margin-left: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2{
+    background: white;
+    margin-right: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1 input{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 5px 5px 5px 0px black;
+    background-color: blueviolet;
+    color: white;
+}
+.btn1 input:hover{
+background-color: springgreen;
+color: black;
+}
+.btn2 input {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 5px 5px 5px 0px black;
+    background-color: red;
+    color: white;
+}
+.view{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 5px 5px 5px 0px black;
+    border:2px solid springgreen;
+    display: none;
+}
+.table-container{
+display: flex;
+justify-content: center;
+width: auto;
+height: auto;
+}
+.table{
+    width: auto;
+    height: auto;
+}
+.id{
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-top-left-radius:10px;
+}
+.name{
+    height: 30px;
+    width: 500px;
+    background-color: blue;
+    text-align: center;
+}
+.pass{
+    height: 30px;
+    width: 300px;
+    background-color: blue;
+    text-align: center;
+    border-top-right-radius: 10px;
+}
+.uid{
+    height: 30px;
+    width: 200px;
+    border:2px solid limegreen;
+    text-align: center;
+}
+.uname{
+    height: 30px;
+    width: 500px;
+    border:2px solid limegreen;
+    text-align: center;
+}
+.upass{
+    height: 30px;
+    width: 300px;
+    border:2px solid limegreen;
+    text-align: center;
+}
+.fid{
+    height: 20px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+    border-bottom-left-radius:10px;
+}
+.fname{
+    height: 20px;
+    width: 500px;
+    background-color: blue;
+    text-align: center;
+}
+.fpass{
+    height: 20px;
+    width: 300px;
+    background-color: blue;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+}

@@ -6,8 +6,18 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.1",
+    "bcrypt": "^3.0.7",
+    "browser-image-compression": "^1.0.6",
+    "exceljs": "^3.6.1",
+    "express": "^4.17.1",
+    "html2canvas": "^1.0.0-rc.5",
+    "jspdf": "^1.5.3",
+    "pg": "^7.17.1",
     "react": "^16.12.0",
+    "react-bottom-scroll-listener": "^3.0.0",
     "react-dom": "^16.12.0",
+    "react-html-table-to-excel": "^2.0.0",
     "react-scripts": "3.3.0"
   },
   "scripts": {
@@ -30,5 +40,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "electron": "^7.1.9",
+    "nodemon": "^2.0.2"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

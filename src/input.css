@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+  /* background-color: green; */
+}
+
+.main {
+  /* height: 500px; */
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  margin: 50px;
+  /* margin-right: 50px; */
+
+}
+.main form {
+  width: 50%;
+}
+.form {
+  /* margin-left: 85px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 270px;
+  padding-bottom: 50px;
+  width: auto;
+  align-items: center;
+  background-color: #dceee0;
+  border: 1px solid rgb(191, 223, 191);
+}
+.form h3{
+  color: rgb(63, 31, 243);
+  font-family: sans-serif;
+}
+.form2 {
+  margin-top: 65px;
+  margin-right: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 75px;
+  width: auto;
+  align-items: center;
+}
+.input {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid springgreen;
+  box-shadow: 12px 11px 8px 0px black;
+}
+.input:hover {
+  width: 400px;
+  border: 2px solid blue;
+}
+.btn1 {
+  background: white;
+  /* margin-left: 85px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn2 {
+  background: white;
+  margin-right: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1 input {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px 0px black;
+  background-color: blueviolet;
+  color: white;
+}
+.btn1 input:hover {
+  background-color: springgreen;
+  color: black;
+}
+.btn1-input {
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 5px;
+  box-shadow: 5px 5px 5px 0px black;
+  background-color: blueviolet;
+  color: white;
+}
+.btn1-input:hover {
+  background-color: springgreen;
+  color: black;
+}
+.btn2-input {
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+
+  /* margin-left: 5px; */
+  box-shadow: 5px 5px 5px 0px black;
+  background-color: rgb(224, 170, 170);
+  color: white;
+}
+.btn2-input:hover {
+  background-color: red;
+}
+.view {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px 0px black;
+  border: 2px solid springgreen;
+  display: none;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-evenly; */
+  width: 232mm;
+  height: 100mm;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table {
+  width: auto;
+  height: auto;
+}
+.id {
+  height: 30px;
+  width: 200px;
+  background-color: blue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-top-left-radius: 10px;
+}
+.name {
+  height: 30px;
+  width: 500px;
+  background-color: blue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.pass {
+  height: 30px;
+  width: 300px;
+  background-color: blue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-top-right-radius: 10px;
+}
+.uid {
+  height: 30px;
+  width: 200px;
+  border: 2px solid limegreen;
+  text-align: center;
+}
+.uname {
+  height: 30px;
+  width: 500px;
+  border: 2px solid limegreen;
+  text-align: center;
+}
+.upass {
+  height: 30px;
+  width: 300px;
+  border: 2px solid limegreen;
+  text-align: center;
+}
+.fid {
+  height: 20px;
+  width: 200px;
+  background-color: blue;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+}
+.fname {
+  height: 20px;
+  width: 500px;
+  background-color: blue;
+  text-align: center;
+}
+.fpass {
+  height: 20px;
+  width: 300px;
+  background-color: blue;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+}
+.mutate {
+  width: auto;
+  display: flex;
+}
+.print-container1 {
+  margin-left: 20px;
+  height: 30px;
+  width: 30px;
+  background: none;
+  border: none;
+}
+.print-container2 {
+  /* margin-left: 30px; */
+  height: 30px;
+  width: 30px;
+  background: none;
+  border: none;
+}
+.print1 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+.print2 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+.edit {
+  height: 20px;
+  width: 20px;
+}
+.delete {
+  height: 18px;
+  width: 20px;
+}
+.print-btn {
+  margin-left: 70%;
+}
+tfoot {
+  margin-bottom: 50px;
+}
+.upload {
+  height: 30px;
+  width: 30px;
+  fill: rgb(15, 140, 218);
+  cursor: pointer;
+  /* margin-left: 35px; */
+}
+
+.upload:hover {
+  fill: rgb(226, 54, 82);
+}
+.photo input{
+display: none;
+}
+.disp{
+  height: 300px;
+  width: auto;
+}
+.btn-1{
+  width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 5px 5px 5px 0px black;
+    background-color: blueviolet;
+    color: white;
+}
+.update-btn{
+  height: 50px;
+  padding: 10px;
+  margin: 30px;
+  width: 200px;
+  background-color: blue;
+  border: 2px solid springgreen;
+  border-radius: 5px;
+  color: springgreen;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.update-btn:hover{
+  background-color: springgreen;
+  border: 2px solid blue;
+  color: blue;
+}
+.update{
+  /* display: none; */
+  height: 50px;
+  width: 200px;
+  margin: 30px;
+}
+.update-btn2{
+  display: none;
+}

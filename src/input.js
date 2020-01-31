@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactHTMLTableToExcel from "react-html-table-to-excel";
-import axios from "axios";
+import axios from 'axios'
 // import imageCompression from "browser-image-compression"
 import "./input.css";
 import jsPDF from "jspdf";
